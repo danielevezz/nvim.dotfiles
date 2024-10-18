@@ -10,13 +10,13 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
-vim.keymap.set("x", "<leader>p", [["_dP]])
+vim.keymap.set("x", "<leader>p", [["_dP<CR>]])
 
-vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
+vim.keymap.set({ "n", "v" }, "<leader>y", [["+y<CR>]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
-vim.keymap.set({ "n", "v" }, "<leader>p", [["+p]])
+vim.keymap.set({ "n", "v" }, "<leader>p", [["+p<CR>]])
 
-vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
+vim.keymap.set({ "n", "v" }, "<leader>d", [["_d<CR>]])
 
 vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
