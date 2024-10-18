@@ -7,6 +7,7 @@ return {
 			{'<leader>fg', "<cmd>Telescope live_grep<cr>", desc = "Live grep"},
 			{'<leader>fb', "<cmd>Telescope buffers<cr>", desc = "Find buffers"},
 			{'<C-p>', "<cmd>Telescope git_files<cr>", desc = "Git files"}
-		}
+		},
+        lazy = false
 	}
 }
