@@ -9,4 +9,11 @@ vim.api.nvim_create_user_command('Jq',
         vim.opt.filetype = 'json'
         vim.cmd("%!jq")
     end,
-{})
+    {})
+
+vim.api.nvim_create_autocmd('BufWritePost', {
+    pattern = {'*.adoc'},
+    callback = function()
+        vim.cmd("Make! html")
+    end
+})

@@ -29,6 +29,4 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
-
--- Per obsidian.nvim
-vim.opt_local.conceallevel = 2
+vim.opt.cursorline = true
