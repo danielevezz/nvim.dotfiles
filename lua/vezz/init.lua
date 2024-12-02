@@ -2,6 +2,8 @@ require("vezz.remap")
 require("vezz.set")
 require("oil").setup()
 
+require'lspconfig'.gopls.setup{}
+
 vim.cmd("colorscheme rose-pine-moon")
 
 vim.api.nvim_create_user_command('Jq',
