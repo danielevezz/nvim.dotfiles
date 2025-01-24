@@ -16,6 +16,6 @@ vim.api.nvim_create_user_command('Jq',
 vim.api.nvim_create_autocmd('BufWritePost', {
     pattern = {'*.adoc'},
     callback = function()
-        vim.cmd("Make! html")
+        vim.cmd("Dispatch! just html")
     end
 })
