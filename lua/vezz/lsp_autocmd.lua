@@ -1,3 +1,7 @@
+-- Enable LSP
+vim.lsp.enable('elixirls')
+
+
 -- keymaps
 vim.api.nvim_create_autocmd('LspAttach', {
     callback = function(args)

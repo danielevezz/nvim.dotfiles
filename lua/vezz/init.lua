@@ -51,3 +51,10 @@ vim.api.nvim_create_autocmd('BufWritePost', {
         vim.cmd("Dispatch! just tex %")
     end
 })
+
+vim.api.nvim_create_autocmd('OptionSet', {
+    pattern = { 'background' },
+    callback = function()
+        vim.notify("bg changed yo")
+    end
+})
