@@ -6,8 +6,7 @@ return { {
 
         configs.setup({
             ensure_installed = { "lua", "query", "go", "javascript", "html",
-                "c_sharp", "json", "dockerfile", "elixir",
-            "eex", "erlang","heex","surface","nu"},
+                "ruby", "c_sharp", "json", "dockerfile", "nu" },
             sync_install = false,
             highlight = { enable = true },
             indent = { enable = true },

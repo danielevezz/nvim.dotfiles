@@ -28,3 +28,11 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 vim.keymap.set("n", "G", "Gzz")
+
+-- args list
+vim.keymap.set("n", "<leader>an", "<cmd>exe v:count1 .. 'n'<bar>args<cr><esc>") --next arg
+vim.keymap.set("n", "<leader>ap", "<cmd>exe v:count1 .. 'N'<bar>args<cr><esc>") --prev arg
+
+vim.keymap.set("n", "<leader>aa", "<cmd>$arge %<bar>argded<bar>args<cr>")       --add current
+vim.keymap.set("n", "<leader>ad", "<cmd>argd %<bar>args<cr>")                   --delete current
+vim.keymap.set("n", "<leader>ac", "<cmd>%argd<cr><C-L>")                        --clear
