@@ -29,4 +29,8 @@ require("oil").setup(
 --vim.opt.background = 'dark'
 vim.cmd("colorscheme tokyonight-moon")
 
+-- lowcontrast
+-- light -> kanagawa-paper-canvas
+-- dark -> lackluster-hack
+
 vim.diagnostic.config({ virtual_text = true })
