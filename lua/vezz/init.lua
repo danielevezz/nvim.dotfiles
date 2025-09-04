@@ -26,7 +26,7 @@ require("oil").setup(
     }
 )
 
-vim.opt.background = 'light'
-vim.cmd("colorscheme rose-pine")
+--vim.opt.background = 'dark'
+vim.cmd("colorscheme tokyonight-moon")
 
 vim.diagnostic.config({ virtual_text = true })
