@@ -18,6 +18,6 @@ return {
         },
         inactive_sections = {},
         tabline = {},
-        extensions = { 'oil' },
+        extensions = { 'oil', 'fugitive' },
     }
 }
