@@ -1,6 +1,6 @@
 require("vezz.remap")
 require("vezz.set")
-require("vezz.statusline")
+--require("vezz.statusline")
 require("vezz.lsp_autocmd")
 
 require("oil").setup(
@@ -26,6 +26,7 @@ require("oil").setup(
     }
 )
 
-vim.cmd("colorscheme lackluster-hack")
+vim.opt.background = 'light'
+vim.cmd("colorscheme rose-pine")
 
 vim.diagnostic.config({ virtual_text = true })
